@@ -49,20 +49,20 @@ public class Main {
 
     private static void performAction(String action){
         if (action.matches("ARI|all")) {
-            System.out.println("Automated Readability Index: " + double2Decimal(automatedReadibility()) + age2Text(score2Age(automatedReadibility())));
+            System.out.printf("Automated Readability Index: %.2f %s \n", double2Decimal(automatedReadibility()), age2Text(score2Age(automatedReadibility())));
         }
         if (action.matches("FK|all")){
-            System.out.println("Flesch–Kincaid readability tests: " + double2Decimal(fleschKincaid()) +  age2Text(score2Age(fleschKincaid())));
+            System.out.printf("Flesch–Kincaid readability tests: %.2f %s \n", double2Decimal(fleschKincaid()),  age2Text(score2Age(fleschKincaid())));
         }
         if (action.matches("SMOG|all") ){
-            System.out.println("Simple Measure of Gobbledygook: " + double2Decimal(smog()) + age2Text(score2Age(smog())));
+            System.out.printf("Simple Measure of Gobbledygook: %.2f %s \n", double2Decimal(smog()), age2Text(score2Age(smog())));
         }
         if (action.matches("CL|all")){
-            System.out.println("Coleman–Liau index: " + double2Decimal(colemanLiau()) + age2Text(score2Age(colemanLiau())));
+            System.out.printf("Coleman–Liau index: %.2f %s \n", double2Decimal(colemanLiau()), age2Text(score2Age(colemanLiau())));
         }
         if (action.matches("all")){
             double average = (score2Age(automatedReadibility()) + score2Age(fleschKincaid()) + score2Age(smog()) + score2Age(colemanLiau()))/ 4;
-            System.out.println("This text should be understood in average by " + average + "-year-olds.");
+            System.out.printf("This text should be understood in average by %.2f-year-olds.", average);
         }
     }
 

@@ -8,11 +8,10 @@
 DEnter the score you want to calculate (ARI, FK, SMOG, CL, all): all
  
 > all
-:Automated Readability Index: 12.86 (about 24+-year-olds).
-AFlesch–Kincaid readability tests: 12.95 (about 24+-year-olds).
-=Simple Measure of Gobbledygook: 13.81 (about 24+-year-olds).
-3Coleman–Liau index: 13.59 (about 24+-year-olds).
-=This text should be understood in average by 24.0-year-olds.
+<Automated Readability Index: 12.86  (about 24+-year-olds). 
+CFlesch–Kincaid readability tests: 12.95  (about 24+-year-olds). 
+?Simple Measure of Gobbledygook: 13.81  (about 24+-year-olds). 
+5Coleman–Liau index: 13.59  (about 24+-year-olds). 
 [1;31m
 Start test 2[0m
 Words: 137
@@ -23,11 +22,10 @@
 DEnter the score you want to calculate (ARI, FK, SMOG, CL, all): all
  
 > all
-:Automated Readability Index: 7.08 (about 14.0-year-olds).
-AFlesch–Kincaid readability tests: 6.83 (about 13.0-year-olds).
-=Simple Measure of Gobbledygook: 9.38 (about 16.0-year-olds).
-3Coleman–Liau index: 13.59 (about 24+-year-olds).
->This text should be understood in average by 16.75-year-olds.
+<Automated Readability Index: 7.08  (about 14.0-year-olds). 
+CFlesch–Kincaid readability tests: 6.83  (about 13.0-year-olds). 
+?Simple Measure of Gobbledygook: 9.38  (about 16.0-year-olds). 
+5Coleman–Liau index: 13.59  (about 24+-year-olds). 
 [1;31m
 Start test 3[0m
 Words: 180
@@ -38,8 +36,7 @@
 DEnter the score you want to calculate (ARI, FK, SMOG, CL, all): all
  
 > all
-;Automated Readability Index: 11.18 (about 18.0-year-olds).
-BFlesch–Kincaid readability tests: 10.78 (about 17.0-year-olds).
->Simple Measure of Gobbledygook: 11.85 (about 18.0-year-olds).
-3Coleman–Liau index: 13.59 (about 24+-year-olds).
->This text should be understood in average by 19.25-year-olds.
+=Automated Readability Index: 11.18  (about 18.0-year-olds). 
+DFlesch–Kincaid readability tests: 10.78  (about 17.0-year-olds). 
+@Simple Measure of Gobbledygook: 11.85  (about 18.0-year-olds). 
+5Coleman–Liau index: 13.59  (about 24+-year-olds). 
